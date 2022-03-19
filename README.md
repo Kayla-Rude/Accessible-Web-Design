@@ -1,1 +1,1 @@
-# Accessible-Web-Design
+This is a repository for accessible web design.
