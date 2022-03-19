@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+
+/* form styling */
+body {
+	background-color: #FEF4EF;
+	font: poppins; 
+}
+
+#formcol1 li {   
+	list-style:none;
+	text-align: left;
+	
+}
+
+#wrapper {
+	width: 60%;
+	margin-left:4%;
+}
+
+ul #formcol1 {   
+	list-style: none;
+	text-align: right;
+	width: 7.3em;
+}
+
+label {
+	margin-right: .3em;
+	width: 5.8em;  /* I made this deliberately wide – come up with your own optimal width */
+	display: inline-block; /* width will not work for “inline” elements such as “label”. Therefore we need to set it to “inline-block” */
+}
+
+select:focus, select:active, input:focus, input:active, input:focus + label, input:active + label, label[for]:focus, label[for]:active {
+	color: #1C1F26 !important;
+	background-color: #D1F0ED !important;
+}
+
+/* end of form css */
+	
